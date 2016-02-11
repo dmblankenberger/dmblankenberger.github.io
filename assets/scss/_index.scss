@@ -1,0 +1,112 @@
+@mixin max-width($point) {
+	@if $point == mobile {
+		$point: $mobile-width;
+	}
+	@media (max-width: $point)  { @content; }
+}
+
+@mixin min-width($point) {
+	@if $point == mobile {
+		$point: $mobile-width;
+	}
+	@media (min-width: $point)  { @content; }
+}
+
+@mixin max-height($point) {
+	@media (max-height: $point)  { @content; }
+}
+
+@mixin min-height($point) {
+	@media (min-height: $point)  { @content; }
+} 
+
+.wrap {
+    overflow: hidden;
+    margin: 10px;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    background: white;
+    display: block;
+    max-width: 80%;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    overflow-x: hidden;
+    margin-bottom: 50px;
+}
+
+.box {
+    float: left;
+    position: relative;
+    width: 25%;
+    padding-bottom: 25%;
+    
+    @include max-width(800px) {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+    @include max-width(400px) {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+
+.box_inner {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    overflow: hidden;
+}
+
+.box_inner img {
+    width: 100%;
+}
+
+.blur img {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.blur a:hover img {
+    -webkit-filter: blur(4px);
+}
+
+#gallery {
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#gallery span {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    display: table;
+    position: absolute;
+    vertical-align: middle;
+    font-size: 1em;
+    line-height: 150px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .6);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    
+    @include max-width(600px) {
+        font-size: .8em;
+    }
+}
+
+#gallery a:hover span {
+    opacity: 1;
+}

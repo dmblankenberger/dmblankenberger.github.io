@@ -1,0 +1,31 @@
+%clearfix{
+    
+	&:after {
+		clear:both;
+        content:"";
+		display:table;
+	}
+
+}
+
+%nolist {
+	ul {
+		padding-left:0;
+		list-style:none;
+	}
+}
+
+%plainlinks {
+	a {
+		text-decoration: none;
+	}
+}
+
+%noselect {
+	user-select:none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+%grayscale {
+	filter:grayscale(100%);
+}

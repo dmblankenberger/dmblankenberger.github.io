@@ -1,0 +1,176 @@
+#main_container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#main {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: white;
+    margin-top: 50px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    
+    @include max-width(600px) {
+        margin-top: 30px;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-size: 2.4em;
+        line-height: 1;
+        font-weight: 300;
+        letter-spacing: 6px;
+        font-family: 'Lato', sans-serif;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        @include max-width(600px) {
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding-left: 10px;
+    }
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 300;
+        letter-spacing: 2px;
+        padding: 15px;
+        padding-top: 5px;
+        @include max-width(600px) {
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 10px;
+        padding-top: 5px;
+    }
+    }
+}
+
+article img {
+    width: 50%;
+}
+
+.right {
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.8;
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+    padding: 30px;
+    
+    @include max-width(600px) {
+        font-size: 9px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    a {
+        color: black;
+        font-weight: 500;
+        text-decoration: none;
+        &:hover {
+            color: dimgray;
+            text-decoration: none;
+        }
+    }
+}
+
+.about p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.merrycssmas img {
+    margin-bottom: 30px;
+}
+
+.link {
+        padding: 0;
+a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    text-align: center;
+    padding: 8px;
+    background-color: #eaeaea;
+    margin-bottom: 10px;
+    &:hover {
+       background: white; 
+       font-weight: 500;
+    }
+}
+    }
+
+h3 a {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    &:hover {
+        color: dimgray;
+        text-decoration: none;
+    }
+}
+
+.image_one {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.image_two {
+    width: 32%;
+    height: auto;
+}
+
+.image_three {
+    width: 32%;
+    height: auto;
+}
+
+.image_four {
+    width: 24%;
+    height: auto;
+}
+
+.image_full {
+    width: 100%;
+}
+
+.image_thin {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.image_icon {
+    width: 20%;
+    vertical-align: top;
+    transform: translateY(50%);
+    margin-right: 30px;
+}
+
+.image_box {
+    text-align: center;
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#placeholder {
+    height: 45vh;
+}
