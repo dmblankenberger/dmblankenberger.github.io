@@ -100,7 +100,7 @@ nav {
     max-height: 300px; }
   /* line 50, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav .top > li {
-    font-size: 18px;
+    font-size: 14px;
     display: inline-block;
     margin-right: 10px;
     vertical-align: top;
@@ -115,7 +115,7 @@ nav {
   /* line 65, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav .sub {
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     max-height: 0;
     overflow: hidden;
@@ -144,7 +144,7 @@ nav {
     max-height: 300px; }
   /* line 94, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav .items {
-    font-size: 16px;
+    font-size: 12px;
     max-height: 0;
     overflow: hidden;
     -webkit-transition: max-height 1s;
