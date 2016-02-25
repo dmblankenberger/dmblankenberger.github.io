@@ -48,7 +48,7 @@ nav {
             max-height: 300px;
     }
     .top > li {
-        font-size: 14px;
+        font-size: 18px;
         display: inline-block;
         margin-right: 10px;
         vertical-align: top;
@@ -63,11 +63,12 @@ nav {
         }
     }
     .sub {
-        font-size: 14px;
+        padding-top: 10px;
+        font-size: 18px;
         font-weight: 300;
         max-height: 0;
         overflow: hidden;
-        transition: max-height .4s;
+        transition: max-height 1s;
         @include max-width(800px) {
             font-size: 10px;
         }
@@ -84,18 +85,18 @@ nav {
     }
     .sub li li {
         padding-left: 10px;
-        max-width: 100px;
+        max-width: 150px;
         font-weight: 100;
     }
     .sub li:hover .items {
         max-height: 300px;
     }
     .items {
-        font-size: 12px;
+        font-size: 16px;
         max-height: 0;
         overflow: hidden;
-        transition: max-height .4s;
-        max-width: 100px;
+        transition: max-height 1s;
+        max-width: 150px;
         padding-top:4px;
         @include max-width(800px) {
             font-size: 10px;

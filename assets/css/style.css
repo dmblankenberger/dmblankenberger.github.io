@@ -100,7 +100,7 @@ nav {
     max-height: 300px; }
   /* line 50, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav .top > li {
-    font-size: 14px;
+    font-size: 18px;
     display: inline-block;
     margin-right: 10px;
     vertical-align: top;
@@ -114,54 +114,55 @@ nav {
         text-align: right; } }
   /* line 65, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav .sub {
-    font-size: 14px;
+    padding-top: 10px;
+    font-size: 18px;
     font-weight: 300;
     max-height: 0;
     overflow: hidden;
-    -webkit-transition: max-height .4s;
-            transition: max-height .4s; }
+    -webkit-transition: max-height 1s;
+            transition: max-height 1s; }
     @media (max-width: 800px) {
       nav .sub {
         font-size: 10px; } }
-    /* line 74, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
+    /* line 75, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
     nav .sub li {
       padding-left: 10px;
       padding: 4px;
       padding-left: 10px;
       background-color: white;
       border-top: 1px solid #eee; }
-      /* line 80, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
+      /* line 81, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
       nav .sub li a:before {
         content: "/ "; }
-  /* line 85, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
+  /* line 86, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav .sub li li {
     padding-left: 10px;
-    max-width: 100px;
+    max-width: 150px;
     font-weight: 100; }
-  /* line 90, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
+  /* line 91, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav .sub li:hover .items {
     max-height: 300px; }
-  /* line 93, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
+  /* line 94, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav .items {
-    font-size: 12px;
+    font-size: 16px;
     max-height: 0;
     overflow: hidden;
-    -webkit-transition: max-height .4s;
-            transition: max-height .4s;
-    max-width: 100px;
+    -webkit-transition: max-height 1s;
+            transition: max-height 1s;
+    max-width: 150px;
     padding-top: 4px; }
     @media (max-width: 800px) {
       nav .items {
         font-size: 10px; } }
-    /* line 103, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
+    /* line 104, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
     nav .items li a:before {
       content: "// "; }
-  /* line 108, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
+  /* line 109, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav a.current {
     background-color: none;
     color: black;
     font-weight: 500; }
-  /* line 113, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
+  /* line 114, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_menu.scss */
   nav a:hover {
     font-weight: 500; }
 
