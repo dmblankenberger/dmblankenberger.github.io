@@ -442,7 +442,7 @@ iframe {
   }
 }
 
-/* line 21, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 20, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 #main h2 {
   text-transform: uppercase;
   font-size: 2.4em;
@@ -456,7 +456,7 @@ iframe {
 }
 
 @media (max-width: 600px) {
-  /* line 21, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+  /* line 20, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
   #main h2 {
     font-size: 16px;
     letter-spacing: 2px;
@@ -464,7 +464,7 @@ iframe {
   }
 }
 
-/* line 38, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 36, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 #main h3 {
   font-size: 18px;
   line-height: 1;
@@ -475,7 +475,7 @@ iframe {
 }
 
 @media (max-width: 600px) {
-  /* line 38, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+  /* line 36, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
   #main h3 {
     font-size: 12px;
     letter-spacing: 1px;
@@ -484,12 +484,12 @@ iframe {
   }
 }
 
-/* line 54, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 52, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 article img {
   width: 50%;
 }
 
-/* line 58, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 56, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .right {
   float: right;
   padding-top: 10px;
@@ -497,7 +497,7 @@ article img {
   padding-left: 30px;
 }
 
-/* line 65, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 63, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 p {
   font-size: 12px;
   line-height: 1.8;
@@ -507,7 +507,7 @@ p {
 }
 
 @media (max-width: 600px) {
-  /* line 65, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+  /* line 63, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
   p {
     font-size: 9px;
     padding-left: 15px;
@@ -515,36 +515,36 @@ p {
   }
 }
 
-/* line 77, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 74, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 p a {
   color: black;
   font-weight: 500;
   text-decoration: none;
 }
 
-/* line 81, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 78, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 p a:hover {
   color: dimgray;
   text-decoration: none;
 }
 
-/* line 88, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 85, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .about p {
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 93, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 90, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .merrycssmas img {
   margin-bottom: 30px;
 }
 
-/* line 97, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 94, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .link {
   padding: 0;
 }
 
-/* line 99, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 96, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .link a {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -559,13 +559,13 @@ p a:hover {
   margin-bottom: 10px;
 }
 
-/* line 111, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 108, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .link a:hover {
   background: white;
   font-weight: 500;
 }
 
-/* line 118, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 115, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 h3 a {
   font-size: 15px;
   color: black;
@@ -573,13 +573,13 @@ h3 a {
   text-decoration: none;
 }
 
-/* line 123, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 120, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 h3 a:hover {
   color: dimgray;
   text-decoration: none;
 }
 
-/* line 129, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 126, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .image_one {
   width: 60%;
   height: auto;
@@ -587,36 +587,36 @@ h3 a:hover {
   margin-right: 20%;
 }
 
-/* line 136, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 133, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .image_two {
   width: 32%;
   height: auto;
 }
 
-/* line 141, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 138, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .image_three {
   width: 32%;
   height: auto;
 }
 
-/* line 146, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 143, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .image_four {
   width: 24%;
   height: auto;
 }
 
-/* line 151, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 148, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .image_full {
   width: 100%;
 }
 
-/* line 155, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 152, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .image_thin {
   width: 30%;
   margin: 0 auto;
 }
 
-/* line 160, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 157, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .image_icon {
   width: 20%;
   vertical-align: top;
@@ -625,7 +625,7 @@ h3 a:hover {
   margin-right: 30px;
 }
 
-/* line 167, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 164, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 .image_box {
   text-align: center;
   float: none;
@@ -633,7 +633,39 @@ h3 a:hover {
   margin: 0 auto;
 }
 
-/* line 174, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+/* line 171, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
 #placeholder {
   height: 45vh;
+}
+
+/* line 176, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+.dazzle img {
+  padding: 10px;
+  width: 25%;
+}
+
+/* line 180, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+.dazzle .diagram {
+  width: 16%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+/* line 185, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+.dazzle li {
+  display: inline-block;
+  width: 25%;
+}
+
+/* line 188, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+.dazzle li p {
+  text-align: left;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 198, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+.dazzle-wrapper {
+  margin-bottom: 100px;
 }
