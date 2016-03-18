@@ -669,3 +669,9 @@ h3 a:hover {
 .dazzle-wrapper {
   margin-bottom: 100px;
 }
+
+/* line 202, /Users/deniseblankenberger/Documents/dmblankenber.iweb.bsu.edu/assets/scss/_article.scss */
+iframe {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
