@@ -700,9 +700,10 @@ iframe {
   top: 0;
   color: white;
   z-index: 0;
+  text-align: justify;
 }
 
-/* line 19, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+/* line 20, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
 .mini-container p span {
   color: #FFECF2;
   font-family: 'Old Standard TT', serif;
@@ -710,7 +711,7 @@ iframe {
   line-height: 1;
 }
 
-/* line 28, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+/* line 29, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
 .ice-cream-cone-container {
   width: 100%;
   height: auto;
@@ -720,7 +721,7 @@ iframe {
           transform: translateX(-50%);
 }
 
-/* line 36, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+/* line 37, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
 .ice-cream-scoop {
   height: 160px;
   width: 160px;
@@ -733,7 +734,7 @@ iframe {
   z-index: 40;
 }
 
-/* line 47, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+/* line 48, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
 .ice-cream-scoop-two {
   height: 160px;
   width: 160px;
@@ -746,7 +747,7 @@ iframe {
   z-index: 30;
 }
 
-/* line 58, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+/* line 59, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
 .ice-cream-scoop-three {
   height: 160px;
   width: 160px;
@@ -759,7 +760,7 @@ iframe {
   z-index: 20;
 }
 
-/* line 69, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+/* line 70, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
 .ice-cream-cone {
   position: relative;
   left: 18px;
