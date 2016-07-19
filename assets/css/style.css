@@ -678,90 +678,88 @@ iframe {
 
 /* line 1, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
 .mini-container {
+  display: block;
   position: relative;
   text-align: center;
+  margin-bottom: 10vh;
+}
+
+/* line 8, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 {
   background-color: lightblue;
 }
 
-/* line 5, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
-.mini-container h1 {
+/* line 10, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 h1 {
   padding-bottom: 0;
   color: #FFECF2;
   font-family: 'Old Standard TT', serif;
-  font-size: 12px;
+  font-size: 1.2em;
   padding: 10px;
   margin: 0;
 }
 
-/* line 13, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
-.mini-container p {
+/* line 18, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 p {
+  font-size: .9em;
   padding-top: 0;
   position: absolute;
   top: 0;
   color: white;
   z-index: 0;
   text-align: justify;
+  text-overflow: hidden;
 }
 
-/* line 20, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
-.mini-container p span {
+/* line 27, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 p span {
   color: #FFECF2;
   font-family: 'Old Standard TT', serif;
   font-size: 12px;
   line-height: 1;
 }
 
-/* line 29, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
-.ice-cream-cone-container {
+/* line 34, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 .ice-cream-cone-container {
   width: 100%;
-  height: auto;
+  display: block;
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
-/* line 37, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
-.ice-cream-scoop {
+/* line 41, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 .ice-cream-scoop {
   height: 160px;
   width: 160px;
   border-radius: 50%;
-  background-color: #FFECF2;
-  -webkit-shape-outside: circle();
-          shape-outside: circle();
   position: relative;
+}
+
+/* line 47, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 .ice-cream-scoop {
+  background-color: #FFECF2;
   top: 0;
   z-index: 40;
 }
 
-/* line 48, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
-.ice-cream-scoop-two {
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
+/* line 52, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 .ice-cream-scoop-two {
   background-color: palegoldenrod;
-  -webkit-shape-outside: circle();
-          shape-outside: circle();
-  position: relative;
-  top: -30px;
+  top: -3em;
   z-index: 30;
 }
 
-/* line 59, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
-.ice-cream-scoop-three {
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
+/* line 57, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 .ice-cream-scoop-three {
   background-color: #AE8F8F;
-  -webkit-shape-outside: circle();
-          shape-outside: circle();
-  position: relative;
-  top: -60px;
+  top: -5em;
   z-index: 20;
 }
 
-/* line 70, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
-.ice-cream-cone {
+/* line 62, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-1 .ice-cream-cone {
   position: relative;
   left: 18px;
   width: 0;
@@ -771,4 +769,48 @@ iframe {
   border-right: 60px solid transparent;
   border-top: 200px solid bisque;
   z-index: 10;
+}
+
+/* line 75, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-2 {
+  display: block;
+}
+
+/* line 77, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-2 h1 {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+/* line 81, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-2 small {
+  font-style: italic;
+  font-weight: 100;
+  font-size: .8em;
+}
+
+/* line 86, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-2 .chef-quote {
+  border: 2px solid black;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  background-color: #eeeeee;
+}
+
+/* line 92, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-2 .chef-quote p {
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+/* line 99, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-2 .chef-quote .attribute p {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 3em;
+  text-transform: inherit;
+  padding: 0;
 }

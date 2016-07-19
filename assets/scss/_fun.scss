@@ -1,22 +1,29 @@
 .mini-container {
+    display: block;
     position: relative;
     text-align: center;
+    margin-bottom: 10vh;
+}
+
+.day-1 {
     background-color: lightblue;
     h1 {
         padding-bottom: 0;
         color: #FFECF2;
         font-family: 'Old Standard TT', serif;
-        font-size: 12px;
+        font-size: 1.2em;
         padding: 10px;
         margin: 0;
     }
     p {
+        font-size: .9em;
         padding-top: 0;
         position: absolute;
         top: 0;
         color: white;
         z-index: 0;
         text-align: justify;
+        text-overflow: hidden;
         span {
             color: #FFECF2;
             font-family: 'Old Standard TT', serif;
@@ -24,57 +31,76 @@
             line-height: 1;
         }
     }
+    .ice-cream-cone-container {
+        width: 100%;
+        display: block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .ice-cream-scoop {
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        position: relative;
+    }
+    .ice-cream-scoop {
+        background-color: #FFECF2;
+        top: 0;
+        z-index: 40;
+    }
+    .ice-cream-scoop-two {
+        background-color: palegoldenrod;
+        top: -3em;
+        z-index: 30;
+    }
+    .ice-cream-scoop-three {
+        background-color: #AE8F8F;
+        top: -5em;
+        z-index: 20;
+    }
+    .ice-cream-cone {
+        position: relative;
+        left: 18px;
+        width: 0;
+        height: 0;
+        top: -80px;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+        border-top: 200px solid bisque;
+        z-index: 10;
+    }
 }
 
-.ice-cream-cone-container {
-    width: 100%;
-    height: auto;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.ice-cream-scoop {
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    background-color: #FFECF2;
-    shape-outside: circle();
-    position: relative;
-    top: 0;
-    z-index: 40;
-}
-
-.ice-cream-scoop-two {
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    background-color: palegoldenrod;
-    shape-outside: circle();
-    position: relative;
-    top: -30px;
-    z-index: 30;
-}
-
-.ice-cream-scoop-three {
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    background-color: #AE8F8F;
-    shape-outside: circle();
-    position: relative;
-    top: -60px;
-    z-index: 20;
-}
-
-.ice-cream-cone {
-    position: relative;
-    left: 18px;
-    width: 0;
-    height: 0;
-    top: -80px;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-top: 200px solid bisque;
-    z-index: 10;
+.day-2 {
+    display: block;
+    h1 {
+        font-size: 1.2em;
+        margin-bottom: 1.5em;
+    }
+    small {
+        font-style: italic;
+        font-weight: 100;
+        font-size: .8em;
+    }
+    .chef-quote {
+        border: 2px solid black;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        background-color: #eeeeee;
+        p {
+            width: 60%;
+            margin: 0 auto;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+        .attribute p {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 3em;
+            text-transform: inherit;
+            padding: 0;
+        }
+    }
 }
