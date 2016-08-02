@@ -24,19 +24,29 @@
         z-index: 0;
         text-align: justify;
         text-overflow: hidden;
-        span {
-            color: #FFECF2;
-            font-family: 'Old Standard TT', serif;
-            font-size: 12px;
-            line-height: 1;
+        @include max-width(350px) {
+                font-size: .6em;
         }
+        @include max-width(600px) {
+                font-size: .8em;
+        }
+        @include max-width(800px) {
+                font-size: 1.4em;
+        }
+        @include max-width(1000px) {
+                font-size: 1.2em;
+        }
+    }
+    span {
+        color: #FFECF2;
+        font-family: 'Old Standard TT', serif;
+        font-size: 12px;
+        line-height: 1;
     }
     .ice-cream-cone-container {
         width: 100%;
         display: block;
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
     }
     .ice-cream-scoop {
         height: 160px;
@@ -102,5 +112,50 @@
             text-transform: inherit;
             padding: 0;
         }
+    }
+}
+
+.day-3 {
+    background-color: #2B324F;
+    color: white;
+    h1 {
+        font-size: 1.2em;
+        margin-bottom: 1.5em;
+        padding: 10px;  
+        letter-spacing: 1.5;
+        border-bottom: 1px solid white;
+    }
+    .quote-container {
+        padding: 15px;
+    }
+    
+    .minimalism-quote {
+        text-align: center;
+        position: relative;
+        @include max-width(320px) {
+            margin-left: 40%;
+        }
+    }
+    
+    p {
+        font-family: 'Cutive Mono', ;
+        font-size: 2em;
+        width: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        text-align: left;
+        border-left: 2px solid #599Ebb;
+        position: relative;
+        @include max-width(320px) {
+            font-size: 1em;
+            width: 40px;
+        }
+    }
+    span {
+        font-family: 'Dosis', sans-serif;
+        color: #599Ebb;
+        font-weight: 700;
+        letter-spacing: 3;
+        text-transform: uppercase;
     }
 }
