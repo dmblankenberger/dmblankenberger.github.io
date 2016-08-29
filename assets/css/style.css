@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -1034,5 +1035,192 @@ iframe {
   /* line 231, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
   .day-4 .bottom-row {
     margin-top: -20px;
+  }
+}
+
+/* line 243, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-5 h1 {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  padding: 10px;
+  letter-spacing: 1.5;
+}
+
+/* line 249, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-5 .fwb-quote {
+  font-family: 'Helvetica', sans-serif;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+
+@media (max-width: 620px) {
+  /* line 249, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+  .day-5 .fwb-quote {
+    width: 80%;
+  }
+}
+
+/* line 258, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-5 .fwb-quote .times-roman {
+  font-family: "Times New Roman", serif;
+  border-right: 10px solid steelblue;
+  border-left: none;
+  letter-spacing: 1.1;
+  font-size: 1.2em;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* line 268, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-5 span {
+  color: steelblue;
+  font-weight: blue;
+  font-size: 1.6em;
+  vertical-align: middle;
+}
+
+/* line 274, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-5 blockquote {
+  letter-spacing: 1.1;
+  background: #f9f9f9;
+  border-left: 10px solid steelblue;
+  padding: 0.5em 10px;
+  quotes: "“" "”";
+  text-align: left;
+}
+
+/* line 282, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-5 blockquote p {
+  display: inline;
+}
+
+/* line 287, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 {
+  background-color: #fff3eb;
+}
+
+/* line 288, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 h1 {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  padding: 10px;
+  letter-spacing: 1.5;
+}
+
+/* line 295, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 .humility-quote {
+  width: 70%;
+  margin: 0 auto;
+  color: #333;
+}
+
+/* line 300, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 div {
+  display: block;
+  font-size: 1.6em;
+  line-height: 1.4em;
+}
+
+/* line 305, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 .quote-font-1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+/* line 308, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 .quote-font-2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* line 311, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 .humility {
+  font-size: 2.6em;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 620px) {
+  /* line 311, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+  .day-6 .humility {
+    font-size: 1.6em;
+    letter-spacing: 10px;
+  }
+}
+
+/* line 320, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 .isnot {
+  letter-spacing: 6px;
+}
+
+@media (max-width: 620px) {
+  /* line 320, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+  .day-6 .isnot {
+    font-size: 1em;
+    letter-spacing: 2px;
+  }
+}
+
+/* line 327, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 .yourself {
+  font-size: 2em;
+  letter-spacing: 26px;
+}
+
+@media (max-width: 620px) {
+  /* line 327, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+  .day-6 .yourself {
+    font-size: 1.4em;
+    letter-spacing: 12px;
+  }
+}
+
+/* line 335, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 .thinking {
+  letter-spacing: 5px;
+}
+
+@media (max-width: 620px) {
+  /* line 335, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+  .day-6 .thinking {
+    font-size: 1em;
+    letter-spacing: 2px;
+  }
+}
+
+/* line 342, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 .less {
+  font-size: 4em;
+  letter-spacing: 44px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 620px) {
+  /* line 342, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+  .day-6 .less {
+    font-size: 2em;
+    letter-spacing: 20px;
+  }
+}
+
+/* line 350, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-6 .less:after {
+  content: "C.S. Lewis";
+  text-decoration: underline;
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  font-family: 'PT Sans Narrow', sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+@media (max-width: 620px) {
+  /* line 350, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+  .day-6 .less:after {
+    font-size: 10px;
+    margin-left: -12px;
   }
 }
