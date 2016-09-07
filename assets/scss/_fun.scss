@@ -3,6 +3,12 @@
     position: relative;
     text-align: center;
     margin-bottom: 10vh;
+    h1 {
+        font-size: 1.2em;
+        margin-bottom: 1.5em;
+        padding: 10px;
+        letter-spacing: 1.5;
+    }
 }
 
 .day-1 {
@@ -409,13 +415,80 @@
 
 .day-8 {
     background-color: #49745E;
+    h1 {
+        color: #e3ede8;
+    }
+    .allison-quote {
+        width: 60%;
+        margin: 0 auto;
+        text-align: right;
+        padding-bottom: 20px;
+        @include max-width(700px) {
+            width: 100%;
+        }@include max-width(500px) {
+            padding-bottom: 40px;
+        }
+        p {
+            color: #e3ede8;
+            padding: 4px;
+            font-family: 'Reenie Beanie', cursive;
+            font-size: 3em;
+            letter-spacing: 1.5px;
+            @include max-width(400px) {
+                font-size: 2em;
+                padding: 1px;
+            }
+        }
+        .bep {
+            font-size: 4em;
+            @include max-width(620px) {
+                font-size: 2.6em;
+            }
+        }
+    }
     .pea {
         position: absolute;
         width: 40px;
         height: 60px;
         border: 20px solid #C4BDAB;
+        border-right: 10px;
         border-radius: 50%;
-        display: flex;
         background-color: black;
+        @include max-width(500px) {
+            width: 18px;
+            height: 24px;
+            border: 5px solid #C4BDAB;
+            border-right: 2px;
+            border-radius: 50%;
+        }
+    }
+    .pea-one {
+        left: 10px;
+        transform: rotate(-15deg);
+    }
+    .pea-two {
+        top: 100px;
+        left: 150px;
+        transform: rotate(10deg);
+        width: 30px;
+        height: 50px;
+        border: 16px solid #C4BDAB;
+        border-left: 10px;
+        @include max-width(500px) {
+            left: 50px;
+            width: 18px;
+            height: 24px;
+            border: 5px solid #C4BDAB;
+            border-right: 2px;
+            border-radius: 50%;
+        }
+    }
+    .pea-three {
+        top: 160px;
+        left: 60px;
+        transform: rotate(-13deg);
+        @include max-width(500px) {
+            left: 23px;
+        }
     }
 }
