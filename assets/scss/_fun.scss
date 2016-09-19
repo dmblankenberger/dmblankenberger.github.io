@@ -580,6 +580,8 @@
     span {
         color: white;
     }
+
+    
     background-color: #a1d6db;
     padding-bottom: 20px;
     ol {
@@ -611,5 +613,11 @@
     .ice-bath {
         width: 70%;
         margin: 0 auto;
+        h3 {
+        color: white;
+        font-family: 'roboto', sans-serif;
+        font-weight: 100;
+        font-size: 1.4em;
+    }
     }
 }
