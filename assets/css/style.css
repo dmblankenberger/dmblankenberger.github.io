@@ -1546,3 +1546,47 @@ iframe {
     font-size: .7em;
   }
 }
+
+/* line 579, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-11 {
+  background-color: #a1d6db;
+  padding-bottom: 20px;
+}
+
+/* line 582, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-11 ol {
+  text-align: left;
+  list-style: none;
+}
+
+/* line 585, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-11 ol li {
+  color: white;
+  font-family: 'roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1.4em;
+  counter-increment: item;
+  margin-bottom: 5px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+
+/* line 594, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-11 ol li:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: white;
+  border-radius: 100%;
+  color: #a1d6db;
+  width: 1.2em;
+  height: 1.2em;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 608, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_fun.scss */
+.day-11 .ice-bath {
+  width: 70%;
+  margin: 0 auto;
+}
