@@ -161,6 +161,13 @@ h3 a {
     margin-right: 30px;
 }
 
+.image_icon-acclivity {
+    width: 20%;
+//    vertical-align: top;
+//    transform: translateY(50%);
+    margin-right: 30px;
+}
+
 .image_box {
     text-align: center;
     float: none;
@@ -198,6 +205,25 @@ h3 a {
 .dazzle-wrapper {
     margin-bottom: 100px;
 }
+
+#acclivity {
+    width: 200px;
+}
+
+.wax-captions {
+    p {
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+        vertical-align: top;
+        padding: 4px;
+        font-size: 1em;
+        margin-bottom: 10px;
+        span {
+            font-weight: 700;
+            margin-right: 10px;
+    }
+    }}
 
 iframe {
     margin-bottom: 60px;

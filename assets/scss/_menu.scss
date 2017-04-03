@@ -47,18 +47,23 @@ nav {
             max-height: 300px;
     }
     .top > li {
+        height: 50px;
+//        border: 2px solid #eaeaea;
         font-size: 14px;
         display: inline-block;
         margin-right: 10px;
         vertical-align: top;
         margin-top: 10px;
-        padding-bottom: 4px;
+        text-align: right;
         
+
         @include max-width(800px) {
             font-size: 10px;
+            margin-top: 20px;
         }
         @include max-width(400px) {
-            text-align: right;
+            margin-top: 30px;
+            height: 30px;
         }
     }
     .sub {
