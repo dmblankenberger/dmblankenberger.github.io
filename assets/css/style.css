@@ -178,6 +178,7 @@ nav .top > li {
 
 /* line 69, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
 nav .sub {
+  text-align: left;
   padding-top: 10px;
   font-size: 14px;
   font-weight: 300;
@@ -194,7 +195,7 @@ nav .sub {
   }
 }
 
-/* line 79, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
+/* line 80, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
 nav .sub li {
   padding-left: 10px;
   padding: 4px;
@@ -203,54 +204,54 @@ nav .sub li {
   border-top: 1px solid #eee;
 }
 
-/* line 85, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
+/* line 86, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
 nav .sub li a:before {
   content: "/ ";
 }
 
-/* line 90, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
+/* line 91, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
 nav .sub li li {
   padding-left: 10px;
   max-width: 150px;
   font-weight: 100;
 }
 
-/* line 95, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
+/* line 96, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
 nav .sub li:hover .items {
   max-height: 300px;
 }
 
-/* line 98, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
+/* line 99, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
 nav .items {
   font-size: 12px;
   max-height: 0;
   overflow: hidden;
-  -webkit-transition: max-height 1s;
-          transition: max-height 1s;
+  -webkit-transition: max-height 1.2s;
+          transition: max-height 1.2s;
   max-width: 150px;
   padding-top: 4px;
 }
 
 @media (max-width: 800px) {
-  /* line 98, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
+  /* line 99, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
   nav .items {
     font-size: 10px;
   }
 }
 
-/* line 108, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
+/* line 109, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
 nav .items li a:before {
   content: "// ";
 }
 
-/* line 113, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
+/* line 114, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
 nav a.current {
   background-color: none;
   color: black;
   font-weight: 500;
 }
 
-/* line 118, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
+/* line 119, /Users/deniseblankenberger/Documents/denise.blankenberger.com/assets/scss/_menu.scss */
 nav a:hover {
   font-weight: 500;
 }
