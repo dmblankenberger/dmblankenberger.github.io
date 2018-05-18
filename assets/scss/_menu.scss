@@ -67,6 +67,7 @@ nav {
         }
     }
     .sub {
+        text-align: left;
         padding-top: 10px;
         font-size: 14px;
         font-weight: 300;
@@ -99,7 +100,7 @@ nav {
         font-size: 12px;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 1s;
+        transition: max-height 1.2s;
         max-width: 150px;
         padding-top:4px;
         @include max-width(800px) {
